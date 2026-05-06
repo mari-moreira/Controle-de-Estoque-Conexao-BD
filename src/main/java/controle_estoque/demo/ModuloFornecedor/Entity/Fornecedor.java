@@ -14,7 +14,11 @@ public class Fornecedor {
     private String telefone;
     private String endereco;
     private String cidade;
+
+    @Column(name = "produto_fornecido_a")
     private String produtoFornecidoA;
+
+    @Column(name = "produto_fornecido_b")
     private String produtoFornecidoB;
 
     public Fornecedor() {}
